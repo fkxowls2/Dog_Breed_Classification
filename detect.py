@@ -14,7 +14,7 @@ LABELS = ['Pomeranian',
 'Siberian_husky',
 'Jindo']
 CONFIDENCE = 0.3
-THRESHOLD = 0.3  #NMS(Num Max Suppression)
+THRESHOLD = 0.3  #NMS(Non-Maximum Suppression)
 
 net = cv2.dnn.readNetFromDarknet('yolov4.cfg','yolov4.weights')
 
